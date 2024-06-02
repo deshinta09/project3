@@ -1,15 +1,26 @@
+import Navbar from "../components/navbar";
+
 export default function Home (){
     return <>
+        <Navbar/>
         <h1>Page Home</h1>
-        {/* <div dir="ltr">
-            <div className="snap-x">
-                <div className="scroll-ms-6 snap-start">
-                    <img src="https://images.unsplash.com/photo-1604999565976-8913ad2ddb7c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&h=160&q=80" />
-                </div>
-                <div className="scroll-ms-6 snap-start">
-                    <img src="https://images.unsplash.com/photo-1604999565976-8913ad2ddb7c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=320&h=160&q=80" />
+        <div className="justify-between grid grid-cols-2">
+            <div>
+                <h1 style={{ textAlign:'center' }}>Deshinta Alfi Aulia</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores sed quidem neque repellat optio, enim eveniet esse non. Fugit animi excepturi eum neque repellendus officiis provident ex quaerat recusandae architecto!</p>
+
+                <div>
+                    <ul>
+                        <li>github</li>
+                        <li>linkedin</li>
+                        <li>nomor hp</li>
+                    </ul>
                 </div>
             </div>
-        </div> */}
+
+            <div>
+                <img className="w-40" src="./profile.png" alt="" />
+            </div>
+        </div>
     </>
 }

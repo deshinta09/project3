@@ -5,13 +5,7 @@ import Navbar from "./components/navbar";
 const route = createBrowserRouter([
     {
         path: '/',
-        element: <Navbar/>,
-        children: [
-            {
-                path: '',
-                element: <Home/>
-            }
-        ]
+        element: <Home/>
     }
 ])
 
