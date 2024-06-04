@@ -1,16 +1,19 @@
 import Navbar from "../components/navbar";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 export default function Home (){
     return <>
-        <Navbar name="home"/>
-        <h1>Page Home</h1>
-        <div className="justify-between grid grid-cols-2 px-32">
+        <div className="fixed w-screen">
+            <Navbar name="home"/>
+        </div>
+        <div className="grid items-center justify-center min-h-screen grid-cols-2 px-44">
             <div className="grid gap-4 content-center">
-                <h1 className="text-xl" style={{ textAlign:'center' }}>Deshinta Alfi Aulia</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores sed quidem neque repellat optio, enim eveniet esse non. Fugit animi excepturi eum neque repellendus officiis provident ex quaerat recusandae architecto!</p>
+                <h1 className="text-3xl text-center">Deshinta Alfi Aulia</h1>
+                <p className="text-center">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores sed quidem neque repellat optio, enim eveniet esse non. Fugit animi excepturi eum neque repellendus officiis provident ex quaerat recusandae architecto!</p>
 
                 <div>
                     <ul className="flex gap-3">
+                        <FontAwesomeIcon icon="fab fa-linkedin" />
                         <li>github</li>
                         <li>linkedin</li>
                         <li>nomor hp</li>
